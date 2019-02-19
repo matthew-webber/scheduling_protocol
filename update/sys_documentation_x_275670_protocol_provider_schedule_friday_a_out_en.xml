@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="friday_a_out" label="A-OUT" language="en" table="x_275670_protocol_provider_schedule">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>friday_a_out</element>
+            <help/>
+            <hint/>
+            <label>A-OUT</label>
+            <language>en</language>
+            <name>x_275670_protocol_provider_schedule</name>
+            <plural>A-OUTs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-09 17:16:15</sys_created_on>
+            <sys_id>cdb81019db67630027d7fbef29961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>A-OUT</sys_name>
+            <sys_package display_value="Service Protocol Management" source="x_275670_protocol">3558fc33db43230027d7fbef29961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Protocol Management">3558fc33db43230027d7fbef29961967</sys_scope>
+            <sys_update_name>sys_documentation_x_275670_protocol_provider_schedule_friday_a_out_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-09 17:16:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

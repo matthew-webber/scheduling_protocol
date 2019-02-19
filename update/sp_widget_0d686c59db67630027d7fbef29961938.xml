@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($rootScope) {
+  /* widget controller */
+  var c = this;
+	
+	$rootScope.$on('yup', function(event,shr) {
+		c.service = shr.action;
+		c.data.text = shr.action;
+		c.server.update().then(function() {
+			c.data.text = undefined;
+		});
+	});
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{
+  font-family:Arial, sans-serif;
+  font-size:14px;padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  width:100px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black;
+ }
+.tg th{
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black;
+ }
+.tg .tg-0pky{
+  border-color:inherit;
+  text-align:left;
+  vertical-align:top;
+  }
+.tg .tg-0lax{
+  text-align:left;
+  vertical-align:top}
+
+.blocked {
+  background-color:red;
+  color:red;
+}
+
+.blued {
+  background-color:blue;
+}
+
+.pending-delete { background-color: pink }
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>protocol_planner</id>
+        <internal>false</internal>
+        <link/>
+        <name>Protocol Planner</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-09 18:24:47</sys_created_on>
+        <sys_id>0d686c59db67630027d7fbef29961938</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Protocol Planner</sys_name>
+        <sys_package display_value="Service Protocol Management" source="x_275670_protocol">3558fc33db43230027d7fbef29961967</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Protocol Management">3558fc33db43230027d7fbef29961967</sys_scope>
+        <sys_update_name>sp_widget_0d686c59db67630027d7fbef29961938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-11 03:06:28</sys_updated_on>
+        <template><![CDATA[<table class="tg">
+  <tr>
+    <td class="tg-0pky" ng-model="myVal">8:00:00</td>
+    <td ng-class="{'blocked': myVar}">{{ name }}</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">8:30 AM</td>
+    <td class="tg-0pky">Test</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">9:00 AM</td>
+    <td class="tg-0lax">test</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">9:30 AM</td>
+    <td class="tg-0lax"></td>
+  </tr>
+</table>
+<input type="checkbox" ng-model="myVar">
+
+<div class="col-xs-6">
+  <div class="row">
+    <div class="col-xs-4">Column 1-a</div>
+    <div class="col-xs-8">Column 1-b</div>
+  </div>
+</div>
+<div class="col-xs-6">
+  <div class="row">
+    <div class="col-xs-2">Column 2-a</div>
+    <div class="col-xs-10">Column 2-b</div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Provider Schedule" max_length="40" name="x_275670_protocol_provider_schedule" type="collection">
+        <element label="A-IN" max_length="20" name="friday_a_in" type="decimal"/>
+        <element label="A-OUT" max_length="20" name="friday_a_out" type="decimal"/>
+        <element label="A-IN" max_length="20" name="monday_a_in" type="decimal"/>
+        <element label="A-OUT" max_length="20" name="monday_a_out" type="decimal"/>
+        <element label="Monday In" max_length="40" name="monday_in" type="glide_time"/>
+        <element label="Monday Lunch End" max_length="40" name="monday_lunch_end" type="glide_time"/>
+        <element label="Monday Lunch Start" max_length="40" name="monday_lunch_start" type="glide_time"/>
+        <element label="Monday Out" max_length="40" name="monday_out" type="glide_time"/>
+        <element display="true" label="Provider" max_length="32" name="provider" reference="x_275670_protocol_service_providers" type="reference"/>
+        <element label="A-IN" max_length="20" name="thursday_a_in" type="decimal"/>
+        <element label="A-OUT" max_length="20" name="thursday_a_out" type="decimal"/>
+        <element label="A-IN" max_length="20" name="tuesday_a_in" type="decimal"/>
+        <element label="A-OUT" max_length="20" name="tuesday_a_out" type="decimal"/>
+        <element label="A-IN" max_length="20" name="wednesday_a_in" type="decimal"/>
+        <element label="A-OUT" max_length="20" name="wednesday_a_out" type="decimal"/>
+        <index name="index">
+            <element name="provider"/>
+        </index>
+    </element>
+</database>

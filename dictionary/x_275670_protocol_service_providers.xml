@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" label="Service Providers" max_length="40" name="x_275670_protocol_service_providers" text_index="true" type="collection">
+        <element display="true" label="Provider" mandatory="true" max_length="32" name="provider" reference="sys_user" reference_qual="u_provider=true^EQ" reference_qual_condition="u_provider=true^EQ" type="reference"/>
+        <element label="Service" max_length="32" name="service" reference="x_275670_teleserv_telehealth_service" type="reference"/>
+        <index name="index">
+            <element name="provider"/>
+        </index>
+        <index name="index2">
+            <element name="service"/>
+        </index>
+    </element>
+</database>
