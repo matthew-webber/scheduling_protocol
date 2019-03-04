@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b7e39c20db77230027d7fbef29961962" sys_domain="global" table="x_275670_protocol_protocol" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-19 19:15:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fe39c20db77230027d7fbef29961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_275670_protocol_protocol" name="x_275670_protocol_protocol" sys_domain="global" view="Default view">b7e39c20db77230027d7fbef29961962</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_275670_protocol_protocol" sys_domain="global" view="Default view">4fa21cecdb37230027d7fbef299619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-19 19:15:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-19 19:15:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3be39c20db77230027d7fbef29961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_275670_protocol_protocol" name="x_275670_protocol_protocol" sys_domain="global" view="Default view">b7e39c20db77230027d7fbef29961962</sys_ui_form>
+            <sys_ui_section caption="Scheduling Protocol" display_value="Scheduling Protocol" name="x_275670_protocol_protocol" sys_domain="global" view="Default view">f7e39c20db77230027d7fbef29961960</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-19 19:15:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-19 19:15:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fe39c20db77230027d7fbef29961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_275670_protocol_protocol" name="x_275670_protocol_protocol" sys_domain="global" view="Default view">b7e39c20db77230027d7fbef29961962</sys_ui_form>
+            <sys_ui_section caption="Communication" display_value="Communication" name="x_275670_protocol_protocol" sys_domain="global" view="Default view">33e39c20db77230027d7fbef29961961</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-19 19:15:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-19 19:15:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37e39c20db77230027d7fbef2996196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_275670_protocol_protocol" name="x_275670_protocol_protocol" sys_domain="global" view="Default view">b7e39c20db77230027d7fbef29961962</sys_ui_form>
+            <sys_ui_section caption="Other" display_value="Other" name="x_275670_protocol_protocol" sys_domain="global" view="Default view">7be39c20db77230027d7fbef29961961</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-19 19:15:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_275670_protocol_protocol</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-19 19:15:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7e39c20db77230027d7fbef29961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_275670_protocol_protocol</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Service Protocol Management" source="x_275670_protocol">3558fc33db43230027d7fbef29961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Protocol Management">3558fc33db43230027d7fbef29961967</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b7e39c20db77230027d7fbef29961962</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-19 19:15:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

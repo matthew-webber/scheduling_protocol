@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_go_live_date" label="Go-live date" language="en" table="x_275670_protocol_telehealth_services">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_go_live_date</element>
+            <help/>
+            <hint/>
+            <label>Go-live date</label>
+            <language>en</language>
+            <name>x_275670_protocol_telehealth_services</name>
+            <plural>Go-live dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-20 16:20:54</sys_created_on>
+            <sys_id>e185b8f0db73230027d7fbef29961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Go-live date</sys_name>
+            <sys_package display_value="Service Protocol Management" source="x_275670_protocol">3558fc33db43230027d7fbef29961967</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Service Protocol Management">3558fc33db43230027d7fbef29961967</sys_scope>
+            <sys_update_name>sys_documentation_x_275670_protocol_telehealth_services_u_go_live_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-20 16:20:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

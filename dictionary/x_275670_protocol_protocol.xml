@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Protocol" max_length="40" name="x_275670_protocol_protocol" type="collection">
+        <element label="Cancellations/absentees" max_length="9999" name="cancellations_absentees" type="string"/>
+        <element display="true" label="Name" max_length="99" name="name" type="string"/>
+        <element label="New patients" max_length="9999" name="new_patients" type="html"/>
+        <element label="Non-urgent" max_length="9999" name="non_urgent_comm" type="string"/>
+        <element label="Other" max_length="9999" name="other" type="string"/>
+        <element label="Overbooks" max_length="9999" name="overbooks" type="string"/>
+        <element label="Patient profile" max_length="9999" name="patient_profile" type="string"/>
+        <element label="Patient restrictions" max_length="9999" name="patient_restrictions" type="html"/>
+        <element label="Return patients" max_length="9999" name="return_patients" type="html"/>
+        <element label="Prescriptions" max_length="9999" name="rx_comm" type="string"/>
+        <element label="Service" max_length="32" name="service" reference="x_275670_teleserv_telehealth_service" type="reference"/>
+        <element label="Unfunded patients" max_length="9999" name="unfunded_patients" type="string"/>
+        <element label="Urgent" max_length="9999" name="urgent_comm" type="string"/>
+        <index name="index">
+            <element name="service"/>
+        </index>
+    </element>
+</database>
